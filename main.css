@@ -1,0 +1,17 @@
+li {
+  background-color: rgb(252, 252, 132);
+}
+
+.fulfilled {
+  background-color: rgb(132, 252, 134);
+}
+
+.close {
+  float: right;
+  height: 18px;
+  border: none;
+  background-color: transparent;
+}
+.close:hover {
+  font-weight: bold;
+}
