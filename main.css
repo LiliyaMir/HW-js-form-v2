@@ -15,3 +15,28 @@ li {
 .close:hover {
   font-weight: bold;
 }
+
+input:invalid {
+  border: 2px solid red;
+  outline: none;
+  background-color: rgb(255, 177, 177);
+}
+
+p * {
+  display: block;
+}
+input[type=text]{
+  width: 100%;
+  font-family: inherit;
+  font-size: 90%;
+  box-sizing: border-box;
+}
+.error {
+  font-size: 80%;
+  background-color: rgb(255, 177, 177);
+  border-radius: 0 0 3px 3px;
+}
+.error.active {
+  padding: 0.3em;
+}
+

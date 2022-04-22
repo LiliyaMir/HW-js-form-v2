@@ -8,9 +8,15 @@
     <title>Document</title>
   </head>
   <body>
-    <input class="to_do" type="text" name="input">
-    <button class="add_button">Send</button>
+    <form class="to_do_form">
+      <p>
+        <input class="to_do" type="text" name="input" pattern="[A-Za-z0-9]{2,25}" autofocus>
+        <span class="error" aria-live="polite"></span>
+      </p>
+      <button class="add_button">Send</button>
+    </form>
     <ul class="todos"></ul>
+
     <script src="./script.js" defer ></script>
   </body>
 </html>
